@@ -1,7 +1,21 @@
 /* Add your styles here */
-.answer{
-    width: 50px;
+.outer{
+    padding: 10px;
+    border: 1px solid green;
 }
 .res{
-    width: 20px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 15px;
+    box-shadow: 10px 10px 8px #888888;
+   }
+.answer{
+    box-shadow: 10px 10px 8px #888888;
+}
+.header{
+    color: white;
+}
+.form-group{
+    width: 400px;
 }
