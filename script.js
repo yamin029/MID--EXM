@@ -11,7 +11,7 @@ $('#btn-play').click(function(){
         if(word[i] == 'a' || word[i] == 'e'|| word[i] == 'i'|| word[i] == 'o'|| word[i] == 'u')
         {
             console.log(word[i])
-            let div= $('<div  style="border-bottom: 1px solid red; margin:15px " class="res"></div>')
+            let div= $('<div  style="border-bottom: 1px dotted red; margin:15px " class="res"></div>')
             $('.answer').append(div)
         }
         else{
